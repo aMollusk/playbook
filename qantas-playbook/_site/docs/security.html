@@ -1,0 +1,1280 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <title>Security - Software Engineering Playbook</title>
+  <link rel="stylesheet" href="http://localhost:4000/css/just-the-docs.css">
+  
+  <script type="text/javascript" src="http://localhost:4000/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<div class="page-wrap">
+	<div class="side-bar">
+		<div class="title_image_div">
+			<a href="http://localhost:4000" class="fs-6 lh-tight"><img src="/images/Qantas.svg" class="title_image"></a>
+	  	</div>
+			<span class="fs-3"><button class="js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>
+			<div class="navigation main-nav js-main-nav">
+				<nav>
+  <ul class="navigation-list">
+    
+    
+      
+        
+          <li class="navigation-list-item active">
+            
+            <a href="http://localhost:4000/404.html" class="navigation-list-link"></a>
+            
+          </li>
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="http://localhost:4000/" class="navigation-list-link">Purpose</a>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="http://localhost:4000/docs/conventions" class="navigation-list-link">Conventions Used</a>
+            
+              
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="http://localhost:4000/docs/agile" class="navigation-list-link">Agile</a>
+            
+              
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Agile/Jira.html" class="navigation-list-link">Jira</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Agile/Confluence.html" class="navigation-list-link">Confluence</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Agile/Bugs.html" class="navigation-list-link">Bugs</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="http://localhost:4000/docs/principles" class="navigation-list-link">Principles</a>
+            
+              
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="http://localhost:4000/docs/standards" class="navigation-list-link">Standards</a>
+            
+              
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Standards/Definitions.html" class="navigation-list-link">Definitions of Done</a>
+                      
+                    </li>
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Standards/Ready.html" class="navigation-list-link">Definitions of Ready</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Standards/VersionControl.html" class="navigation-list-link">Version Control</a>
+                      
+                    </li>
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Standards/CodeReview.html" class="navigation-list-link">Code Review/Pull Requests</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Standards/TechnicalDesignReview.html" class="navigation-list-link">Technical Design Review</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Standards/CodeStyle.html" class="navigation-list-link">Code Style</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Standards/DesignPrinciples.html" class="navigation-list-link">Design Principles</a>
+                      
+                    </li>
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Standards/Cloud.html" class="navigation-list-link">Cloud</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Standards/CICD.html" class="navigation-list-link">CI/CD</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Standards/Versioning.html" class="navigation-list-link">Versioning</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Standards/APIStandards.html" class="navigation-list-link">API Standards</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Standards/Logging.html" class="navigation-list-link">Logging</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Standards/README.html" class="navigation-list-link">README</a>
+                      
+                    </li>
+                  
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item active">
+            
+            <a href="http://localhost:4000/docs/security" class="navigation-list-link active">Security</a>
+            
+              
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Security/SecureCode.html" class="navigation-list-link">Secure Code Standards</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Security/StaticCode.html" class="navigation-list-link">Static Code Analysis</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Security/SoftwareComposition.html" class="navigation-list-link">Software Composition Analysis</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Security/Credentials.html" class="navigation-list-link">Credentials</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Security/SecurityTraining.html" class="navigation-list-link">Security training</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="http://localhost:4000/docs/testing" class="navigation-list-link">Testing</a>
+            
+              
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Testing/TestDrivenDevelopment.html" class="navigation-list-link">Test-Driven Development</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Testing/CharacteristicsUnitTest.html" class="navigation-list-link">Characteristics of a Good Unit Test</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Testing/TestDrivenChecklist.html" class="navigation-list-link">Test-Driven Development Checklist</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/Testing/TestData.html" class="navigation-list-link">Test Data</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="http://localhost:4000/docs/operationalexcellence" class="navigation-list-link">Operational Excellence</a>
+            
+              
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/OperationalExcellence/Ceremonies.html" class="navigation-list-link">Ceremonies</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/OperationalExcellence/StandUps.html" class="navigation-list-link">Stand-ups</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="http://localhost:4000/docs/OperationalExcellence/Guilds.html" class="navigation-list-link">Guilds</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="http://localhost:4000/docs/People/People.html" class="navigation-list-link">People</a>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="http://localhost:4000/docs/SoftwareEngChecklist/SoftwareEngChecklist.html" class="navigation-list-link">Software Engineering Checklist</a>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+  </ul>
+</nav>
+
+			</div>
+			<footer role="contentinfo" class="site-footer">
+			</footer>
+		</div>
+		<div class="main-content-wrap">
+			<div class="page-header">
+				<div class="main-content">
+					<div class="title_site">
+						<a href="http://localhost:4000" class="site-title fs-6 lh-tight">Software Engineering Playbook</a>
+					</div>
+					
+					
+				</div>
+			</div>
+			<div class="main-content">
+				
+				
+				
+				<div class="page-content">
+					<h1 id="security">Security</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>REACH</th>
+      <th>ALL</th>
+      <th>BY DIVISION</th>
+      <th>BY STACK</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LEADS</td>
+      <td>Tim Cooper</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Key Rules:</p>
+
+<ul>
+  <li>
+    <p>No PI Data in Source Code</p>
+  </li>
+  <li>
+    <p>No credentials in Source Code</p>
+  </li>
+  <li>Pen Test performed, shared and issues addressed for every major
+    <blockquote>
+      <p>release.</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>Password complexity and rotation policy in place and mandated.</p>
+  </li>
+  <li>Secure Code Training completed and certification required to approve
+    <blockquote>
+      <p>pull requests.</p>
+    </blockquote>
+  </li>
+  <li>
+    <p>All builds performed via CI</p>
+  </li>
+  <li>No production access for any developer.</li>
+</ul>
+
+<p>Use the following guidelines to help reduce you attack surface:</p>
+
+<ul>
+  <li><strong>Validate input.</strong> Validate input from all untrusted data sources.
+    <blockquote>
+      <p>Proper input validation can eliminate the vast majority of
+software vulnerabilities. Be suspicious of most external data
+sources, including command line arguments, network interfaces,
+environmental variables, and user-controlled files</p>
+    </blockquote>
+  </li>
+  <li><strong>Heed compiler warnings.</strong> Compile code using the highest warning
+    <blockquote>
+      <p>level available for your compiler and eliminate warnings by
+modifying the code. Use static and dynamic analysis tools to
+detect and eliminate additional security flaws.</p>
+    </blockquote>
+  </li>
+  <li><strong>Architect and design for security policies.</strong> Create a software
+    <blockquote>
+      <p>architecture and design your software to implement and enforce
+security policies. For example, if your system requires different
+privileges at different times, consider dividing the system into
+distinct intercommunicating subsystems, each with an appropriate
+privilege set.</p>
+    </blockquote>
+  </li>
+  <li><strong>Keep it simple.</strong> Keep the design as simple and small as possible.
+    <blockquote>
+      <p>Complex designs increase the likelihood that errors will be made
+in their implementation, configuration, and use. Additionally, the
+effort required to achieve an appropriate level of assurance
+increases dramatically as security mechanisms become more complex.</p>
+    </blockquote>
+  </li>
+  <li><strong>Default deny.</strong> Base access decisions on permission rather than
+    <blockquote>
+      <p>exclusion. This means that, by default, access is denied and the
+protection scheme identifies conditions under which access is
+permitted.</p>
+    </blockquote>
+  </li>
+  <li><strong>Adhere to the principle of least privilege.</strong> Every process should
+    <blockquote>
+      <p>execute with the least set of privileges necessary to complete the
+job. Any elevated permission should only be accessed for the least
+amount of time required to complete the privileged task. This
+approach reduces the opportunities an attacker has to execute
+arbitrary code with elevated privileges.</p>
+    </blockquote>
+  </li>
+  <li><strong>Sanitize data sent to other systems.</strong> Sanitize all data passed to
+    <blockquote>
+      <p>complex subsystems such as command shells, relational databases,
+and commercial off-the-shelf (COTS) components. Attackers may be
+able to invoke unused functionality in these components through
+the use of SQL, command, or other injection attacks. This is not
+necessarily an input validation problem because the complex
+subsystem being invoked does not understand the context in which
+the call is made. Because the calling process understands the
+context, it is responsible for sanitizing the data before invoking
+the subsystem.</p>
+    </blockquote>
+  </li>
+  <li><strong>Practice</strong> <strong>defense in depth.</strong> Manage risk with multiple
+    <blockquote>
+      <p>defensive strategies, so that if one layer of defense turns out to
+be inadequate, another layer of defense can prevent a security
+flaw from becoming an exploitable vulnerability and/or limit the
+consequences of a successful exploit.</p>
+    </blockquote>
+  </li>
+  <li><strong>Use effective quality assurance techniques.</strong> Good quality
+    <blockquote>
+      <p>assurance techniques can be effective in identifying and
+eliminating vulnerabilities. Fuzz testing, penetration testing,
+and source code audits should all be incorporated as part of an
+effective quality assurance program. Independent security reviews
+can lead to more secure systems. External reviewers bring an
+independent perspective; for example, in identifying and
+correcting invalid assumptions.</p>
+    </blockquote>
+  </li>
+  <li><strong>Adopt a secure coding standard.</strong> Develop and/or apply a secure
+    <blockquote>
+      <p>coding standard for your target development language and platform.</p>
+    </blockquote>
+  </li>
+</ul>
+
+<p>Reference:
+<a href="https://wiki.sei.cmu.edu/confluence/display/seccode/Top+10+Secure+Coding+Practices">https://wiki.sei.cmu.edu/confluence/display/seccode/Top+10+Secure+Coding+Practices</a></p>
+
+					
+					<hr>
+					<h2 class="text-delta">Table of contents</h2>
+					
+					<ul>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						<li>
+							<a href="http://localhost:4000/docs/Security/SecureCode.html">Secure Code Standards</a>
+						</li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						<li>
+							<a href="http://localhost:4000/docs/Security/StaticCode.html">Static Code Analysis</a>
+						</li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						<li>
+							<a href="http://localhost:4000/docs/Security/SoftwareComposition.html">Software Composition Analysis</a>
+						</li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						<li>
+							<a href="http://localhost:4000/docs/Security/SecurityTraining.html">Security training</a>
+						</li>
+						
+						
+						
+						<li>
+							<a href="http://localhost:4000/docs/Security/Credentials.html">Credentials</a>
+						</li>
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+						
+					</ul>
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+</html>
