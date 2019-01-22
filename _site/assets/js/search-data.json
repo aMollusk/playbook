@@ -240,7 +240,7 @@
   "34": {
     "id": "34",
     "title": "Testing",
-    "content": "Testing            REACH      ALL      BY DIVISION      BY STACK                  LEADS      Stephen Wykes                    Good Developers test this own work. Quality is the responsibility of theDeveloper and self-testing should be across the end-to-end of the userflow. The Developer and QA form a quality team that encompasses unit,regression, acceptance, performance, security, stress, integration,end-to-end testing are performed.Full testing guidelines are covered under the Quality Assurance Playbook",
+    "content": "Testing            REACH      ALL      BY DIVISION      BY STACK                  LEADS      Stephen Wykes      QA             Good Developers test this own work. Quality is the responsibility of theDeveloper and self-testing should be across the end-to-end of the userflow. The Developer and QA form a quality team that encompasses unit,regression, acceptance, performance, security, stress, integration,end-to-end testing are performed.Full testing guidelines are covered under the Quality Assurance Playbook",
     "url": "http://localhost:4000/docs/testing",
     "relUrl": "/docs/testing"
   },
@@ -261,7 +261,7 @@
   "37": {
     "id": "37",
     "title": "Conventions Used",
-    "content": "Conventions UsedThere are a number of conventions used through the Playbook.There are many links to internal reference documents such as the Confluence wiki. For access to the wiki send a request to support@servicerocket.com.au            REACH      ALL      BY DIVISION      BY STACK                  LEADS      Paul Keen                    There are many links to internal reference documents such as theConfluence wiki.[https://Qantas.jira.com/]](https://Qantas.jira.com/)Code blocks are written in the format.using System;namespace HelloWorld{class Hello{static void Main(){Console.WriteLine( &quot;Hello World! &quot;);}}}",
+    "content": "Conventions UsedThere are a number of conventions used through the Playbook.There are many links to internal reference documents such as the Confluence wiki. For access to the wiki send a request to support@servicerocket.com.au            REACH      ALL      BY DIVISION      BY STACK                  LEADS      Paul Keen      Software Eng             There are many links to internal reference documents such as theConfluence wiki.[https://Qantas.jira.com/]](https://Qantas.jira.com/)Code blocks are written in the format.using System;namespace HelloWorld{class Hello{static void Main(){Console.WriteLine( &quot;Hello World! &quot;);}}}",
     "url": "http://localhost:4000/docs/conventions",
     "relUrl": "/docs/conventions"
   },

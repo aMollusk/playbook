@@ -1,0 +1,1131 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  <title>Code Style - Software Engineering Playbook</title>
+  <link rel="stylesheet" href="http://localhost:4000/playbook/css/just-the-docs.css">
+  
+  <script type="text/javascript" src="http://localhost:4000/playbook/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<div class="page-wrap">
+	<div class="side-bar">
+		<div class="title_image_div">
+			<a href="http://localhost:4000" class="fs-6 lh-tight"><img src="/playbook/images/Qantas.svg" class="title_image"></a>
+	  	</div>
+			<span class="fs-3"><button class="js-main-nav-trigger navigation-list-toggle btn btn-outline" type="button" data-text-toggle="Hide">Menu</button></span>
+			<div class="navigation main-nav js-main-nav">
+				<nav>
+  <ul class="navigation-list">
+    
+    
+      
+        
+          <li class="navigation-list-item active">
+            
+            <a href="/playbookhttp://localhost:4000/404.html" class="navigation-list-link"></a>
+            
+          </li>
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="/playbookhttp://localhost:4000/" class="navigation-list-link">Purpose</a>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="/playbookhttp://localhost:4000/docs/conventions" class="navigation-list-link">Conventions Used</a>
+            
+              
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="/playbookhttp://localhost:4000/docs/agile" class="navigation-list-link">Agile</a>
+            
+              
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Agile/Jira.html" class="navigation-list-link">Jira</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Agile/Confluence.html" class="navigation-list-link">Confluence</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Agile/Bugs.html" class="navigation-list-link">Bugs</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="/playbookhttp://localhost:4000/docs/principles" class="navigation-list-link">Principles</a>
+            
+              
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item active">
+            
+            <a href="/playbookhttp://localhost:4000/docs/standards" class="navigation-list-link">Standards</a>
+            
+              
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Standards/Definitions.html" class="navigation-list-link">Definitions of Done</a>
+                      
+                    </li>
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Standards/Ready.html" class="navigation-list-link">Definitions of Ready</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Standards/VersionControl.html" class="navigation-list-link">Version Control</a>
+                      
+                    </li>
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Standards/CodeReview.html" class="navigation-list-link">Code Review/Pull Requests</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Standards/TechnicalDesignReview.html" class="navigation-list-link">Technical Design Review</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item  active">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Standards/CodeStyle.html" class="navigation-list-link active">Code Style</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Standards/DesignPrinciples.html" class="navigation-list-link">Design Principles</a>
+                      
+                    </li>
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Standards/Cloud.html" class="navigation-list-link">Cloud</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Standards/CICD.html" class="navigation-list-link">CI/CD</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Standards/Versioning.html" class="navigation-list-link">Versioning</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Standards/APIStandards.html" class="navigation-list-link">API Standards</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Standards/Logging.html" class="navigation-list-link">Logging</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Standards/README.html" class="navigation-list-link">README</a>
+                      
+                    </li>
+                  
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="/playbookhttp://localhost:4000/docs/security" class="navigation-list-link">Security</a>
+            
+              
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Security/SecureCode.html" class="navigation-list-link">Secure Code Standards</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Security/StaticCode.html" class="navigation-list-link">Static Code Analysis</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Security/SoftwareComposition.html" class="navigation-list-link">Software Composition Analysis</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Security/Credentials.html" class="navigation-list-link">Credentials</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Security/SecurityTraining.html" class="navigation-list-link">Security training</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="/playbookhttp://localhost:4000/docs/testing" class="navigation-list-link">Testing</a>
+            
+              
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Testing/TestDrivenDevelopment.html" class="navigation-list-link">Test-Driven Development</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Testing/CharacteristicsUnitTest.html" class="navigation-list-link">Characteristics of a Good Unit Test</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Testing/TestDrivenChecklist.html" class="navigation-list-link">Test-Driven Development Checklist</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/Testing/TestData.html" class="navigation-list-link">Test Data</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="/playbookhttp://localhost:4000/docs/operationalexcellence" class="navigation-list-link">Operational Excellence</a>
+            
+              
+              <ul class="navigation-list-child-list ">
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/OperationalExcellence/Ceremonies.html" class="navigation-list-link">Ceremonies</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/OperationalExcellence/StandUps.html" class="navigation-list-link">Stand-ups</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                    <li class="navigation-list-item ">
+                      
+                      <a href="/playbookhttp://localhost:4000/docs/OperationalExcellence/Guilds.html" class="navigation-list-link">Guilds</a>
+                      
+                    </li>
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+                  
+                
+              </ul>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="/playbookhttp://localhost:4000/docs/People/People.html" class="navigation-list-link">People</a>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+      
+        
+          <li class="navigation-list-item">
+            
+            <a href="/playbookhttp://localhost:4000/docs/SoftwareEngChecklist/SoftwareEngChecklist.html" class="navigation-list-link">Software Engineering Checklist</a>
+            
+          </li>
+        
+      
+    
+      
+        
+      
+    
+  </ul>
+</nav>
+
+			</div>
+			<footer role="contentinfo" class="site-footer">
+			</footer>
+		</div>
+		<div class="main-content-wrap">
+			<div class="page-header">
+				<div class="main-content">
+					<div class="title_site">
+						<a href="http://localhost:4000" class="site-title fs-6 lh-tight">Software Engineering Playbook</a>
+					</div>
+					
+					
+				</div>
+			</div>
+			<div class="main-content">
+				
+				
+				<nav class="breadcrumb-nav">
+					<ol class="breadcrumb-nav-list">
+						
+						<li class="breadcrumb-nav-list-item"><a href="http://localhost:4000/docs/standards">Standards</a></li>
+						
+						<li class="breadcrumb-nav-list-item"><span>Code Style</span></li>
+					</ol>
+				</nav>
+				
+				
+				<div class="page-content">
+					<h2 id="code-style">Code Style</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th>REACH</th>
+      <th>ALL</th>
+      <th>BY DIVISION</th>
+      <th>BY STACK</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>LEADS</td>
+      <td>Paul Keen</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>We write code in a consistent style. This ensures that all team members
+use the same dialect when writing code, helping us to communicate with
+each other.</p>
+
+<p>Use prefer automated style-guide enforcements (linting built into the
+build pipeline, for example) over style enforcement during reviews.</p>
+
+<p>A combination of automated tools, manual reviews, and automated
+formatting will ensure the code gets to production with the right style.</p>
+
+<h3 id="style-guides">Style Guides</h3>
+
+<p>Please use the following style guides:</p>
+
+<ul>
+  <li>
+    <p><a href="https://google.github.io/styleguide/htmlcssguide.html">HTML and CSS</a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/airbnb/javascript/tree/master/react">React/JSX style guide</a></p>
+  </li>
+  <li>
+    <p><a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/inside-a-program/coding-conventions">C# Style Guide</a></p>
+  </li>
+  <li>
+    <p><a href="https://google.github.io/swift/">Swift style guide</a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/golang/go/wiki/CodeReviewComments">Go style guide</a></p>
+  </li>
+  <li>
+    <p><a href="https://android.github.io/kotlin-guides/style.html">Kotlin style guide</a></p>
+  </li>
+</ul>
+
+<h3 id="lint-tools">Lint Tools</h3>
+
+<p>Before starting developing code, ensure you have linters installed and
+configured for your code editor.</p>
+
+<ul>
+  <li>
+    <p><a href="https://google.github.io/styleguide/cppguide.html">C++ Style Guide</a>,</p>
+  </li>
+  <li>
+    <p><a href="https://github.com/google/styleguide/blob/gh-pages/objcguide.md">Objective-C Style Guide</a></p>
+  </li>
+  <li>
+    <p><a href="https://google.github.io/styleguide/javaguide.html">Java Style Guide</a></p>
+  </li>
+  <li>
+    <p><a href="https://github.com/google/styleguide/blob/gh-pages/pyguide.md">Python Style Guide</a></p>
+  </li>
+  <li>
+    <p><a href="https://google.github.io/styleguide/Rguide.xml">R Style Guide</a></p>
+  </li>
+  <li>
+    <p><a href="https://google.github.io/styleguide/shell.xml">Shell Style Guide</a></p>
+  </li>
+  <li>
+    <p><a href="https://google.github.io/styleguide/htmlcssguide.html">HTML/CSS Style Guide</a></p>
+  </li>
+  <li>
+    <p><a href="https://google.github.io/styleguide/jsguide.html">JavaScript Style Guide</a></p>
+  </li>
+  <li>
+    <p><a href="https://google.github.io/styleguide/angularjs-google-style.html">AngularJS Style Guide</a></p>
+  </li>
+  <li>
+    <p><a href="https://google.github.io/styleguide/lispguide.xml">Common Lisp Style  Guide</a></p>
+  </li>
+  <li>
+    <p><a href="https://google.github.io/styleguide/vimscriptguide.xml">Vimscript Style Guide</a></p>
+  </li>
+</ul>
+
+					
+				</div>
+			</div>
+		</div>
+	</div>
+
+</html>
