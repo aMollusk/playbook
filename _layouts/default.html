@@ -69,7 +69,7 @@
 						{% for child in children_list %}
 						{% if child.parent == page.title and child.title != page.title %}
 						<li>
-							<a href="{{ child.url | absolute_url }}">{{ child.title }}</a>
+							<a href="/playbook{{ child.url | absolute_url }}">{{ child.title }}</a>
 						</li>
 						{% endif %}
 						{% endfor %}
