@@ -12,7 +12,7 @@ Testing
   | ------- | ---------- | ------------- | ---------- |
   | REACH   | ALL        | BY DIVISION   | BY STACK   |
   | ------- | ---------- | ------------- | ---------- |
-  | LEADS   |Stephen Wykes |               |            |
+  | LEADS   |Stephen Wykes | QA              |            |
   | ------- | ---------- | ------------- | ---------- |                 
 
 Good Developers test this own work. Quality is the responsibility of the
