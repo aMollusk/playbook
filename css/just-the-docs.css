@@ -593,6 +593,10 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
   white-space: nowrap; }
+.page-content li {
+  margin-left: -1em !important;
+  line-height: 1em !important;
+}
 .page-content ul,
 .page-content ol {
   padding-left: 1.5em; }
