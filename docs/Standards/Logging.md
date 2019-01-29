@@ -20,9 +20,7 @@ release; it allows Cyber to inspect and analyse behaviour and help build
 metrics to ascertain platform health. A strong logging strategy should
 be considered pivotal to the success of your application.
 
-Logs are centralised across the Qantas Group using Splunk. More for
-access to Splunk contact
-[geoff.car\@qantas.com.au](mailto:geoff.car@qantas.com.au).
+
 
 **Note: No PI data should every be stored in logs**
 
@@ -64,8 +62,7 @@ that is easily searchable in Splunk.
 
 -   Message: The stack trace
 
-There is a detailed naming and object specification for Splunk. To
-obtain a copy contact geoff.car\@qantas.com.au
+
 
 #### Logging Levels
 

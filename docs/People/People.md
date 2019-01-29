@@ -99,9 +99,6 @@ proud of the work you do and even more so, proud of the team you work
 with. We believe each individual should evangelise these great efforts
 at MeetUps, conferences, guest blogs and BBQs.
 
-Please speak to Paul Keen
-([simon.pearce\@Qantas.com](mailto:simon.pearce@Qantas.com))
-requesting permission for any external presentations.
 
  
 =
