@@ -21,7 +21,6 @@ There are many links to internal reference documents such as the Confluence wiki
 
 There are many links to internal reference documents such as the
 Confluence wiki.
-[https://Qantas.jira.com/]](https://Qantas.jira.com/)
 
 Code blocks are written in the format.
 

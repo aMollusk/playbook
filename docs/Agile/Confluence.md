@@ -10,9 +10,6 @@ Confluence
 
 Confluence should be used for all technical documentation.
 
-Confluence location:
-[https://confluence.qantas.com.au](https://confluence.qantas.com.au)
-
 User Stories
 ------------
 

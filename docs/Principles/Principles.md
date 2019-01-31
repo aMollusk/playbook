@@ -48,6 +48,5 @@ team.
 12. Do you actively contribute to the software engineering culture and
     > evangelise our efforts?
 
-More Info: [https://confluence.qantas.com.au/display/CN/Joel+Test]]
 Credit:
 [https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/](https://www.joelonsoftware.com/2000/08/09/the-joel-test-12-steps-to-better-code/)
