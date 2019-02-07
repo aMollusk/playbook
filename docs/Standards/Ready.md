@@ -8,11 +8,11 @@ parent: Standards
 Definitions of Ready
 --------------------
 
-  | ------- | ---------- | ------------- | ---------- |
-  | REACH   | ALL        | BY DIVISION   | BY STACK   |
-  | ------- | ---------- | ------------- | ---------- |
-  | LEADS   | Paul Keen   |               |            |
-  | ------- | ---------- | ------------- | ---------- |     
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | REACH   | ALL                            | BY DIVISION   | BY STACK   |
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | LEADS   | Head of Software Engineering   |               |            |
+  | ------- | ------------------------------ | ------------- | ---------- |    
                
 
 A task is not ready for development unless it has satisfied the
