@@ -9,11 +9,11 @@ permalink: docs/agile
 Agile
 =====
 
-  | ------- | ---------- | ------------- | ---------- |
-  | REACH   | ALL        | BY DIVISION   | BY STACK   |
-  | ------- | ---------- | ------------- | ---------- |
-  | LEADS   | Paul Keen   |               |            |
-  | ------- | ---------- | ------------- | ---------- |                    
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | REACH   | ALL                            | BY DIVISION   | BY STACK   |
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | LEADS   | Head of Software Engineering   |               |            |
+  | ------- | ------------------------------ | ------------- | ---------- |                    
 
 We have a bias for action. Teams should focus on delivering quality
 software quickly, testing, learning and iterating. Best practice agile
