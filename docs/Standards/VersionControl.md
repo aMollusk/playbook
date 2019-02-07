@@ -10,11 +10,11 @@ parent: Standards
 Version Control
 ---------------
 
-  | ------- | ---------- | ------------- | ---------- |
-  | REACH   | ALL        | BY DIVISION   | BY STACK   |
-  | ------- | ---------- | ------------- | ---------- |
-  | LEADS   | Paul Keen   |               |            |
-  | ------- | ---------- | ------------- | ---------- |                    
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | REACH   | ALL                            | BY DIVISION   | BY STACK   |
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | LEADS   | Head of Software Engineering   |               |            |
+  | ------- | ------------------------------ | ------------- | ---------- |                    
 
 We use a distributed version control with open source
 [Git](https://git-scm.com/). Repository management of our

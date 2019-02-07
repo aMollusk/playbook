@@ -8,11 +8,11 @@ parent: Standards
 Definitions of Done
 -------------------
 
-  | ------- | ---------- | ------------- | ---------- |
-  | REACH   | ALL        | BY DIVISION   | BY STACK   |
-  | ------- | ---------- | ------------- | ---------- |
-  | LEADS   | Paul Keen   |               |            |
-  | ------- | ---------- | ------------- | ---------- |     
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | REACH   | ALL                            | BY DIVISION   | BY STACK   |
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | LEADS   | Head of Software Engineering   |               |            |
+  | ------- | ------------------------------ | ------------- | ---------- | 
   
 A task is not considered 'done' until it has satisfied the following
 criteria:

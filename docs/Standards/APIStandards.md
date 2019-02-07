@@ -9,11 +9,11 @@ API Standards
 -------------
 
 
-  | ------- | ----------      | ------------- | ---------- |
-  | REACH   | ALL             | BY DIVISION   | BY STACK   |
-  | ------- | ----------      | ------------- | ---------- |
-  | LEADS   | Souvik Mukherjee|               |            |
-  | ------- | ----------      | ------------- | ---------- |                 
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | REACH   | ALL                            | BY DIVISION   | BY STACK   |
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | LEADS   | Domain Owner API Integration   |               |            |
+  | ------- | ------------------------------ | ------------- | ---------- |                 
 
 An API is not the implementation of a web service. It is the
 specification of the interface to the webservice; where it is and how it

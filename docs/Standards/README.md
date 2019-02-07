@@ -9,12 +9,11 @@ parent: Standards
 README
 ------
 
-
-  | ------- | ----------      | ------------- | ---------- |
-  | REACH   | ALL             | BY DIVISION   | BY STACK   |
-  | ------- | ----------      | ------------- | ---------- |
-  | LEADS   | Paul Keen    |               |            |
-  | ------- | ----------      | ------------- | ---------- |          
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | REACH   | ALL                            | BY DIVISION   | BY STACK   |
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | LEADS   | Head of Software Engineering   |               |            |
+  | ------- | ------------------------------ | ------------- | ---------- |          
 
 All repositories must content a README. Use this template for example
 content:

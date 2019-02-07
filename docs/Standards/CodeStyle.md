@@ -8,11 +8,11 @@ parent: Standards
 Code Style
 ----------
 
-  | ------- | ---------- | ------------- | ---------- |
-  | REACH   | ALL        | BY DIVISION   | BY STACK   |
-  | ------- | ---------- | ------------- | ---------- |
-  | LEADS   | Paul Keen   |               |            |
-  | ------- | ---------- | ------------- | ---------- |                
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | REACH   | ALL                            | BY DIVISION   | BY STACK   |
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | LEADS   | Head of Software Engineering   |               |            |
+  | ------- | ------------------------------ | ------------- | ---------- |                
 
 We write code in a consistent style. This ensures that all team members
 use the same dialect when writing code, helping us to communicate with
