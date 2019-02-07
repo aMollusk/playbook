@@ -11,11 +11,11 @@ permalink: docs/principles
 Principles
 ==========
 
-  | ------- | ---------- | ------------- | ---------- |
-  | REACH   | ALL        | BY DIVISION   | BY STACK   |
-  | ------- | ---------- | ------------- | ---------- |
-  | LEADS   |Paul Keen|               |            |
-  | ------- | ---------- | ------------- | ---------- |           
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | REACH   | ALL                            | BY DIVISION   | BY STACK   |
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | LEADS   | Head of Software Engineering   |               |            |
+  | ------- | ------------------------------ | ------------- | ---------- |      
 
 What does good look like? We benchmark our teams against the following
 questions. These form our principles on what makes a high performing
