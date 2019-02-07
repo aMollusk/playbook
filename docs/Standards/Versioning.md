@@ -8,11 +8,11 @@ parent: Standards
 Versioning
 ----------
 
-  | ------- | ---------- | ------------- | ---------- |
-  | REACH   | ALL        | BY DIVISION   | BY STACK   |
-  | ------- | ---------- | ------------- | ---------- |
-  | LEADS   | Paul Keen|               |            |
-  | ------- | ---------- | ------------- | ---------- |   
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | REACH   | ALL                            | BY DIVISION   | BY STACK   |
+  | ------- | ------------------------------ | ------------- | ---------- |
+  | LEADS   | Head of Software Engineering   |               |            |
+  | ------- | ------------------------------ | ------------- | ---------- | 
 
 
 Versioning is standardised across all applications in the group. We
