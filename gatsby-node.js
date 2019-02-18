@@ -1,7 +1,5 @@
 const path = require("path");
-const crypto = require("crypto");
-// const playbookNav = require("./content/docs/navigation.yml");
-// console.log(playbookNav);
+
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
   console.log(actions);

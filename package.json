@@ -43,7 +43,6 @@
     "url": "https://github.com/gatsbyjs/gatsby/issues"
   },
   "devDependencies": {
-    "crypto": "^1.0.1",
     "gh-pages": "^2.0.1"
   }
 }
