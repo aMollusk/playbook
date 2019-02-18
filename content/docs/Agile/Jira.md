@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Jira
-nav_order: 2
-parent: Agile
 path: "/agile/jira"
 ---
 

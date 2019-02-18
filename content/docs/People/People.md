@@ -1,8 +1,6 @@
 ---
-layout: default
 section: playbook
 title: People
-nav_order: 10
 path: "/people"
 ---
 

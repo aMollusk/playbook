@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Cloud
-nav_order: 7
-parent: Standards
 path: "/standards/cloud"
 ---
 

@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Definitions of Done
-nav_order: 1
-parent: Standards
 path: "/standards/definitions"
 ---
 

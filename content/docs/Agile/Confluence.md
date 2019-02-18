@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Confluence
-nav_order: 3
-parent: Agile
 path: "/agile/confluence"
 ---
 

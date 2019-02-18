@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Security training
-nav_order: 5
-parent: Security
 path: "/security/security-training"
 ---
 

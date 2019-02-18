@@ -1,10 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Security
-nav_order: 7
-has_children: true
-permalink: docs/security
 path: "/security"
 ---
 

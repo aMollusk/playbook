@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Code Review/Pull Requests
-nav_order: 4
-parent: Standards
 path: "/standards/code-review"
 ---
 

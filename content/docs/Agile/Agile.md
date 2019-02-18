@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Agile
-nav_order: 3
-has_children: true
 path: "/agile"
 ---
 

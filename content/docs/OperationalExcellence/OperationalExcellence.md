@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Operational Excellence
-nav_order: 9
-has_children: true
 path: "/operational-excellence"
 ---
 

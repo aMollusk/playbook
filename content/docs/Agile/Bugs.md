@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Bugs
-nav_order: 4
-parent: Agile
 path: "/agile/bugs"
 ---
 

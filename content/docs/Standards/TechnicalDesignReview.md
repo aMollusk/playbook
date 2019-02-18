@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Technical Design Review
-nav_order: 4
-parent: Standards
 path: "/standards/design-review"
 ---
 

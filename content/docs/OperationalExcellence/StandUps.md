@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Stand-ups
-nav_order: 3
-parent: Operational Excellence
 path: "/operational-excellence/standups"
 ---
 

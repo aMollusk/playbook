@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Design Principles
-nav_order: 6
-parent: Standards
 path: "/standards/design-principles"
 ---
 

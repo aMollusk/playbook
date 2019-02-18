@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Ceremonies
-nav_order: 2
-parent: Operational Excellence
 path: "/operational-excellence/ceremonies"
 ---
 

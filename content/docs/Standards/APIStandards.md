@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: API Standards
-nav_order: 10
-parent: Standards
 path: "/standards/api-standards"
 ---
 

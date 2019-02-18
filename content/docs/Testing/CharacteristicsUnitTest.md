@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Characteristics of a Good Unit Test
-nav_order: 3
-parent: Testing
 path: "/testing/characteristics"
 ---
 

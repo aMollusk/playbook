@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Static Code Analysis
-nav_order: 3
-parent: Security
 path: "/security/static-code"
 ---
 

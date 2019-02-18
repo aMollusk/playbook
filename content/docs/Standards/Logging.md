@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Logging
-nav_order: 11
-parent: Standards
 path: "/standards/logging"
 ---
 

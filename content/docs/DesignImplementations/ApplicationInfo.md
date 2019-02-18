@@ -1,4 +1,5 @@
 ---
+section: playbook
 title: Design Implementations
 path: "/design-implementations/application-info"
 ---

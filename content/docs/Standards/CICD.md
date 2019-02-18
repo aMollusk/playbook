@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: CI/CD
-nav_order: 8
-parent: Standards
 path: "/standards/ci-cd"
 ---
 

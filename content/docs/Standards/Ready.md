@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Definitions of Ready
-nav_order: 2
-parent: Standards
 path: "/standards/ready"
 ---
 

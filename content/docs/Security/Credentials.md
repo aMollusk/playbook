@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Credentials
-nav_order: 5
-parent: Security
 path: "/security/credentials"
 ---
 

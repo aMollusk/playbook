@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Test Data
-nav_order: 5
-parent: Testing
 path: "/testing/test-data"
 ---
 

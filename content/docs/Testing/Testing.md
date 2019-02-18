@@ -1,10 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Testing
-nav_order: 8
-has_children: true
-permalink: docs/testing
 path: "/testing"
 ---
 

@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: README
-nav_order: 12
-parent: Standards
 path: "/standards/readme"
 ---
 

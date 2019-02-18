@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Code Style
-nav_order: 5
-parent: Standards
 path: "/standards/code-style"
 ---
 

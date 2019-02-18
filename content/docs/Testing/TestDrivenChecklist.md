@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Test-Driven Development Checklist
-nav_order: 4
-parent: Testing
 path: "/testing/test-driven-checklist"
 ---
 

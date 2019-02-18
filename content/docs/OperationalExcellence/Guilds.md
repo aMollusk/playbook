@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Guilds
-nav_order: 4
-parent: Operational Excellence
 path: "/operational-excellence/guilds"
 ---
 

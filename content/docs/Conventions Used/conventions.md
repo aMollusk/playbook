@@ -1,10 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Conventions Used
-nav_order: 2
-has_children: true
-permalink: docs/conventions
 path: "/conventions"
 ---
 

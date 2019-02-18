@@ -1,10 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Principles
-nav_order: 4
-has_children: true
-permalink: docs/principles
 path: "/principles"
 ---
 

@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Versioning
-nav_order: 9
-parent: Standards
 path: "/standards/versioning"
 ---
 

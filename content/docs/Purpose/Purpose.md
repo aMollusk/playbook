@@ -1,4 +1,5 @@
 ---
+section: playbook
 title: Purpose
 path: /purpose
 ---

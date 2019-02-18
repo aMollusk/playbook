@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Secure Code Standards
-nav_order: 2
-parent: Security
 path: "/security/secure-code"
 ---
 

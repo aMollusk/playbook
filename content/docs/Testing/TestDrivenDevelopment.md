@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Test-Driven Development
-nav_order: 2
-parent: Testing
 path: "/testing/test-driven-development"
 ---
 

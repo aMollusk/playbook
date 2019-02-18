@@ -1,9 +1,6 @@
 ---
-layout: default
 section: playbook
 title: Version Control
-nav_order: 3
-parent: Standards
 path: "/standards/version-control"
 ---
 
