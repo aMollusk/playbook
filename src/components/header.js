@@ -4,9 +4,11 @@ import React from "react";
 import logo from "../images/qantas-code-logo.svg";
 const Header = ({ siteTitle }) => (
   <header
-    style={{
-      marginBottom: `1.45rem`
-    }}
+    style={
+      {
+        // marginBottom: `1.45rem`
+      }
+    }
   >
     <div
       style={{
