@@ -2,7 +2,6 @@ const path = require("path");
 
 exports.createPages = ({ actions, graphql }) => {
   const { createPage } = actions;
-  console.log(actions);
   const playbookTemplate = path.resolve(`./src/templates/playbook.js`);
 
   return graphql(`

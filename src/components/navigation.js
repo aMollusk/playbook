@@ -1,8 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "gatsby";
-// import styled from "@emotion/styled";
 import { css } from "@emotion/core";
-import { MQ_SMALL, MQ_MEDIUM /* MQ_LARGE*/ } from "../constants/styles";
+import { /* MQ_SMALL,*/ MQ_MEDIUM /* MQ_LARGE*/ } from "../constants/styles";
 import logo from "../images/qantas-code-logo.svg";
 import burger from "../images/burger.svg";
 export default ({ navigationTree, currentPath }) => {
@@ -21,7 +20,7 @@ export default ({ navigationTree, currentPath }) => {
     }
   });
 
-  // TODO: Delete all these styles
+  // TODO: Delete all these menu styles
   const expandMenu = css({
     position: "fixed",
     display: "flex",
@@ -32,7 +31,6 @@ export default ({ navigationTree, currentPath }) => {
     height: "50px",
     width: "50px",
     zIndex: 500,
-    background: "none",
     border: "3px solid black",
     borderRadius: "50%",
     background: "#fff",
@@ -87,9 +85,7 @@ export default ({ navigationTree, currentPath }) => {
     }
   });
 
-  const selected = css({
-    // background: "#fff"
-  });
+  const selected = css({});
 
   return (
     <div css={navOuter}>
@@ -100,10 +96,10 @@ export default ({ navigationTree, currentPath }) => {
           setToggle(!expanded);
         }}
       >
-        <img src={burger} />
+        <img alt="mobile menu toggle" src={burger} />
       </button>
       <ul css={navContainer}>
-        <img style={{ width: "160px" }} src={logo} />
+        <img alt="Qantas Code logo" style={{ width: "160px" }} src={logo} />
 
         {navigationTree.map(({ node: { title, id, items } }) => {
           const path = `/${id}`;

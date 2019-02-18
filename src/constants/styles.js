@@ -1,5 +1,3 @@
-const breakpoints = [576, 768, 992, 1200];
-
 const mediaQuery = size => `@media (min-width: ${size}px)`;
 
 export const MQ_SMALL = mediaQuery(576),
