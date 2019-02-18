@@ -9,10 +9,16 @@ export default ({ navigationTree, currentPath }) => {
   const [expanded, setToggle] = useState(false);
 
   const navOuter = css({
+    ...(expanded && {
+      height: "100%",
+      overflow: "hidden"
+    }),
     [MQ_MEDIUM]: {
       // background: "#323232",
       width: "356px",
-      flexShrink: 0
+      flexShrink: 0,
+      overflow: "auto",
+      height: "auto"
     }
   });
 
@@ -33,16 +39,17 @@ export default ({ navigationTree, currentPath }) => {
     height: "100%",
     width: "100%",
     opacity: expanded ? 1 : 0,
+    overflow: expanded ? "scroll" : "hidden", // TODO fix this for mobile... can't click or focus inner
     transition: "opacity .4s",
     padding: "32px",
     paddingLeft: "64px",
-    overflow: "scroll",
     // background: "#fff",
     background: "#fbfbfb",
     [MQ_MEDIUM]: {
       width: "356px",
       opacity: 1,
-      top: 0
+      top: 0,
+      overflow: "scroll" // TODO fix this for mobile... can't click or focus inner
     }
   });
 
