@@ -1,18 +1,15 @@
 import React from "react";
-import Navigation from "../components/navigation";
 import Layout from "../components/layout";
+import Navigation from "../components/navigation";
 import SEO from "../components/seo";
 import { graphql } from "gatsby";
 import logo from "../images/qantas-code-logo.svg";
 import "./playbook.css";
 export default function Template({ data }) {
-  const {
-    markdownRemark,
-    allMarkdownRemark: { edges: allPages }
-  } = data; // data.markdownRemark holds our post data
-  const { html } = markdownRemark;
-  const { frontmatter } = markdownRemark;
-  const nav = createTree(allPages, frontmatter.path);
+  const { html } = data.markdownRemark;
+  const { frontmatter } = data.markdownRemark;
+  // const nav = createTree(allPages, frontmatter.path);
+  const docsNav = data.allNavYaml.edges;
 
   return (
     <Layout>
@@ -20,7 +17,7 @@ export default function Template({ data }) {
       <div className="playbook_container">
         <div className="playbook_navigation">
           <img src={logo} />
-          <Navigation navigationTree={nav} />
+          <Navigation navigationTree={docsNav} />
         </div>
         <div
           className="playbook_content"
@@ -50,6 +47,18 @@ export const pageQuery = graphql`
       frontmatter {
         title
         path
+      }
+    }
+    allNavYaml {
+      edges {
+        node {
+          title
+          id
+          items {
+            id
+            title
+          }
+        }
       }
     }
   }

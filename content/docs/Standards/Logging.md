@@ -9,11 +9,9 @@ path: "/standards/logging"
 
 # Logging
 
-| ------- | ------------------------------ | ------------- | ---------- |
-| REACH | ALL | BY DIVISION | BY STACK |
-| ------- | ------------------------------ | ------------- | ---------- |
-| LEADS | Mng Application Performance | | |
-| ------- | ------------------------------ | ------------- | ---------- |
+| REACH | ALL                         | BY DIVISION | BY STACK |
+| ----- | --------------------------- | ----------- | -------- |
+| LEADS | Mng Application Performance |             |          |
 
 Logs play an important role in development, allowing Developers and
 DevOps to diagnose problems in an application before and after a

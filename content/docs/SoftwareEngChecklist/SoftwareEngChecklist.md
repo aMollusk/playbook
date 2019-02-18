@@ -3,7 +3,7 @@ layout: default
 section: playbook
 title: Software Engineering Checklist
 nav_order: 11
-path: "/software-eng-checklist"
+path: "/software-engineering-checklist"
 ---
 
 # Software Engineering Checklist

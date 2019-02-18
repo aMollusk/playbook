@@ -4,7 +4,7 @@ section: playbook
 title: Guilds
 nav_order: 4
 parent: Operational Excellence
-path: "/operational-exellence/guilds"
+path: "/operational-excellence/guilds"
 ---
 
 # Guilds

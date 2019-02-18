@@ -1,35 +1,20 @@
 import React from "react";
-import { StaticQuery, graphql } from "gatsby";
-import Img from "gatsby-image";
 import { Link } from "gatsby";
 
 export default ({ navigationTree }) => {
   return (
     <ul>
-      {Object.keys(navigationTree).map(next => {
-        const levelTwo = Object.keys(navigationTree[next].children);
+      {navigationTree.map(({ node: { title, id, items } }) => {
         return (
-          <ul key={next}>
-            <Link
-              className={navigationTree[next].home.isActive && "active"}
-              key={next}
-              to={navigationTree[next].home.path}
-            >
-              {navigationTree[next].home.title}
-            </Link>
-            {levelTwo.length > 0 && (
+          <ul key={id}>
+            <Link to={`/${id}`}>{title}</Link>
+            {items && (
               <ul>
-                {levelTwo.map(key => {
-                  const { path, title, isActive } = navigationTree[
-                    next
-                  ].children[key];
+                {/* We should probably do this recursively? */}
+                {items.map(({ title, id: childId }) => {
                   return (
                     <li>
-                      <Link
-                        key={key}
-                        to={path}
-                        className={isActive && "active"}
-                      >
+                      <Link key={id} to={`/${id}/${childId}`}>
                         {title}
                       </Link>
                     </li>

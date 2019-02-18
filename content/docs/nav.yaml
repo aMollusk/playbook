@@ -1,0 +1,86 @@
+- title: Purpose
+  id: purpose
+- title: Conventions Used
+  id: conventions
+- title: Agile
+  id: agile
+  items:
+    - title: Bugs
+      id: bugs
+    - title: Confluence
+      id: confluence
+    - title: Jira
+      id: jira
+- title: Principles
+  id: principles
+- title: Standards
+  id: standards
+  items:
+    - title: Definitions of Done
+      id: definitions
+    - title: Definitions of Ready
+      id: ready
+    - title: Version Control
+      id: version-control
+    - title: Code Review/Pull Requests
+      id: code-review
+    - title: Technical Design Review
+      id: design-review
+    - title: Code Style
+      id: code-style
+    - title: Design Principles
+      id: design-principles
+    - title: Cloud
+      id: cloud
+    - title: CI/CD
+      id: ci-cd
+    - title: Versioning
+      id: versioning
+    - title: API Standards
+      id: api-standards
+    - title: Logging
+      id: logging
+    - title: README
+      id: readme
+- title: Design Implementations
+  id: design-implementations
+  items:
+    - title: Application Info
+      id: application-info
+- title: Security
+  id: security
+  items:
+    - title: Secure Code Standards
+      id: secure-code
+    - title: Static Code Analysis
+      id: static-code
+    - title: Software Composition Analysis
+      id: software-composition
+    - title: Credentials
+      id: credentials
+    - title: Security training
+      id: security-training
+- title: Testing
+  id: testing
+  items:
+    - title: Test-Driven Development
+      id: test-driven-development
+    - title: Characteristics of a Good Unit Test
+      id: characteristics
+    - title: Test-Driven Development Checklist
+      id: test-driven-development
+    - title: Test Data
+      id: test-data
+- title: Operational Excellence
+  id: operational-excellence
+  items:
+    - title: Ceremonies
+      id: ceremonies
+    - title: Stand-ups
+      id: standups
+    - title: Guilds
+      id: guilds
+- title: People
+  id: people
+- title: Software Engineering Checklist
+  id: software-engineering-checklist

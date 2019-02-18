@@ -4,7 +4,7 @@ section: playbook
 title: Stand-ups
 nav_order: 3
 parent: Operational Excellence
-path: "/operational-exellence/standups"
+path: "/operational-excellence/standups"
 ---
 
 # Stand-ups

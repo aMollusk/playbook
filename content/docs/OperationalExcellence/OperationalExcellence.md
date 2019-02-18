@@ -4,8 +4,7 @@ section: playbook
 title: Operational Excellence
 nav_order: 9
 has_children: true
-permalink: docs/operationalexcellence
-path: "/operational-exellence"
+path: "/operational-excellence"
 ---
 
 # Operational Excellence

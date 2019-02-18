@@ -4,7 +4,7 @@ section: playbook
 title: Ceremonies
 nav_order: 2
 parent: Operational Excellence
-path: "/operational-exellence/ceremonies"
+path: "/operational-excellence/ceremonies"
 ---
 
 # Ceremonies
